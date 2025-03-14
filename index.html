@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles Links -->
+    <link rel="icon" type="image/gif" href="assets/images/Animation - 1741554369351.gif">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- animtion -->
+    <link rel="stylesheet" href="https://lottie.host/a8d4559b-a61c-4464-bd85-ac920140420e/UluMG3Pif2.lottie">
+    <title>MangaDesu</title>
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <div class="logo"><a href="/index.html">Manga<span style="color: rgb(90, 51, 199);">Desu</span></a></div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="navitem">
+                        <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true"
+                            aria-expanded="false" aria-label="browse">
+                            Browse
+                            <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div id="dropdown1" class="dropdown">
+                            <div class="dropdown-group">
+                                <span class="dropdown-title">Genres</span>
+                                <ul class="drop-list">
+                                    <li> <a href="genre.html?genre=comedy" class="dropdown-link"
+                                            data-genre="comedy">Comedy</a></li>
+                                    <li><a href="genre.html?genre=romance" class="dropdown-link"
+                                            data-genre="romance">Romance</a>
+                                    </li>
+                                    <li><a href="genre.html?genre=fantasy" class="dropdown-link"
+                                            data-genre="fantasy">Fantasy</a>
+                                    </li>
+                                    <li><a href="genre.html?genre=action" class="dropdown-link"
+                                            data-genre="action">Action</a></li>
+                                    <li><a href="genre.html?genre=drama" class="dropdown-link"
+                                            data-genre="drama">Drama</a></li>
+
+                                    <li><a href="genre.html?genre=school-life" class="dropdown-link"
+                                            data-genre="school-life">School
+                                            Life</a></li>
+                                    <li><a href="genre.html?genre=adventure" class="dropdown-link"
+                                            data-genre="adventure">Adventure</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=slice-of-life" class="dropdown-link"
+                                            data-genre="slice-of-life">Slice of
+                                            Life</a>
+                                    </li>
+                                    <li><a href="genre.html?genre=yaoi" class="dropdown-link" data-genre="yaoi">Yaoi</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=science-fiction" class="dropdown-link"
+                                            data-genre="science-fiction">Science
+                                            Fiction</a></li>
+
+
+
+
+                                    <li> <a href="genre.html?genre=shoujo-ai" class="dropdown-link"
+                                            data-genre="shoujo-ai">Shoujo
+                                            Ai</a></li>
+                                    <li><a href="genre.html?genre=ecchi" class="dropdown-link"
+                                            data-genre="ecchi">Ecchi</a></li>
+                                    <li><a href="genre.html?genre=sports" class="dropdown-link"
+                                            data-genre="sports">Sports</a></li>
+                                    <li><a href="genre.html?genre=historical" class="dropdown-link"
+                                            data-genre="historical">Historical</a></li>
+                                    <li> <a href="genre.html?genre=music" class="dropdown-link"
+                                            data-genre="music">Music</a></li>
+
+                                    <li> <a href="genre.html?genre=magic" class="dropdown-link"
+                                            data-genre="magic">Magic</a></li>
+                                    <li><a href="genre.html?genre=supernatural" class="dropdown-link"
+                                            data-genre="supernatural">Supernatural</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=mystery" class="dropdown-link"
+                                            data-genre="mystery">Mystery</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=harem" class="dropdown-link"
+                                            data-genre="harem">Harem</a></li>
+                                    <li> <a href="genre.html?genre=psychological" class="dropdown-link"
+                                            data-genre="psychological">Psychological</a>
+                                    </li>
+
+                                    <li> <a href="genre.html?genre=shounen" class="dropdown-link"
+                                            data-genre="shounen">Shounen</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=japan" class="dropdown-link"
+                                            data-genre="japan">Japan</a></li>
+                                    <li> <a href="genre.html?genre=thriller" class="dropdown-link"
+                                            data-genre="thriller">Thriller</a>
+                                    </li>
+                                    <li> <a href="genre.html?genre=horror" class="dropdown-link"
+                                            data-genre="horror">Horror</a></li>
+                                    <li> <a href="genre.html?genre=seinen" class="dropdown-link"
+                                            data-genre="seinen">Seinen</a></li>
+                                    <li><a href="genre.html?genre=earth" class="dropdown-link"
+                                            data-genre="earth">earth</a></li>
+                                    <!-- <li> <a class="dropdown-link" href="#earth">Earth</a></li>
+                                    <li> <a class="dropdown-link" href="#kids">Kids</a></li>
+                                    <li> <a class="dropdown-link" href="#present">Present</a></li>
+                                    <li> <a class="dropdown-link" href="#shoujo">Shoujo</a></li>
+                                    <li> <a class="dropdown-link" href="#martial-arts">Martial Arts</a></li>
+ -->
+
+                                    <!-- <li> <a class="dropdown-link" href="#isekai">Isekai</a></li>
+                                    <li><a class="dropdown-link" href="#asia">Asia</a></li>
+                                    <li><a class="dropdown-link" href="#mecha">Mecha</a></li>
+                                    <li> <a class="dropdown-link" href="#shoujo">Shoujo</a></li>
+                                    <li> <a class="dropdown-link" href="#demon">Demon</a></li> -->
+
+
+                                    <!-- <li> <a class="dropdown-link" href="#super-power">Super Power</a></li>
+                                    <li> <a class="dropdown-link" href="#fantasy-world">Fantasy World</a></li>
+                                    <li> <a class="dropdown-link" href="#violence">Violence</a></li>
+                                    <li><a class="dropdown-link" href="#josei">Josei</a></li>
+                                     -->
+                                    <li> <a class="dropdown-link" href="#military">See More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navitem">
+                        <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true"
+                            aria-expanded="false" aria-label="discover">
+                            Download
+                            <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown" id="dropdown2">
+                            <div class="dropdown-group">
+                                <span class="dropdown-title">Explore</span>
+                                <a class="dropdown-link" href="/download.html">Android</a>
+                                <a class="dropdown-link" href="#new-manga">IOS</a>
+                            </div>
+                            <div class="dropdown-group">
+                                <span class="dropdown-title">Read on App</span>
+                                <a class="dropdown-link" href="#mac-windows">MacOS & Windows</a>
+                                <a class="dropdown-link" href="#linux">Linux</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navitem"><a class="navlink" href="#">Latest Chapters</a></li>
+                    <li class=" navitem"><a class="navlink" href="support.html">Support💜</a></li>
+                </ul>
+            </nav>
+
+            <div class="cta">
+                <form action="">
+                    <input class="input" type="text" placeholder="Search manga">
+                    <i class="bx bx-search" aria-hidden="true"></i>
+                </form>
+                <img src="assets/images/b2978aff2c1082f0b8337d6328cf71d8.jpg" height="30" width="30" alt="profile">
+                <button class="btn">Search</button>
+            </div>
+
+            <button id="hamburger">
+                <i class="bx bx-menu"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form class="form2" action="">
+                <input class="input2" type="text" placeholder="Search manga">
+                <i class="bx bx-search2" aria-hidden="true"></i>
+            </form>
+            <div class="main-text">
+                <div class="mainheader">
+                    <div class="lottie-container">
+                        <dotlottie-player
+                            src="https://lottie.host/a8d4559b-a61c-4464-bd85-ac920140420e/UluMG3Pif2.lottie"
+                            background="transparent" speed="1" style="width: 100px; height: 100px" loop
+                            autoplay></dotlottie-player>
+                    </div>
+                    <h1>Welcome to Manga<span style="color: rgb(90, 51, 199);">Desu</span></h1>
+
+                </div>
+                <p> Explore a
+                    vast collection of manga, from timeless classics to the latest releases. Start reading now and
+                    embark on your next journey.</p>
+                <a href="#" class="explore-btn">Explore Manga</a>
+                <a href="#" class="read-btn">Start Reading</a>
+            </div>
+
+
+        </div>
+    </main>
+    <section class="Trending-manga">
+        <div class="container">
+            <h2>Trending Manga</h2>
+            <div class="manga-list">
+
+            </div>
+    </section>
+
+    <section class="new-Manga">
+        <div class="container">
+            <h2>Newest Manga</h2>
+            <div class="manga-list2">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="developer-pick">
+        <div class="container">
+            <h2>Developer's Pick</h2>
+            <div class="manga-list3">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="get-update">
+        <div class="container">
+            <div class="update-text">
+                <h2>Get Updates:</h2>
+                <p>Subscribe to our newsletter to get the latest updates on manga releases, news, and more.</p>
+                <form class="update-form" action="">
+                    <input type="text" placeholder="Enter your email">
+                    <input type="text" placeholder="Enter your name">
+                    <button class="update-btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="update-img">
+                <img src="assets/images/sho.jpg" style="max-width: 100%;" alt="newsletter">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <a href="/" class="footer-logo">MangaDesu</a>
+                <p class="footer-copyright">
+                    &copy; <span id="current-year"></span> MangaVerse. All rights reserved.
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="/terms" class="footer-link">Terms</a>
+                <a href="/privacy" class="footer-link">Privacy</a>
+                <a href="/support.html" class="footer-link">Support</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="app.js"></script>
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<!-- <dotlottie-player src="https://lottie.host/a8d4559b-a61c-4464-bd85-ac920140420e/UluMG3Pif2.lottie"
+    background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player> -->
+
+</html>

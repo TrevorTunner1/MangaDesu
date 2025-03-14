@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f0e8; /* Soft background */
+    color: #06141b; /* Dark text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.support-section {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    border: 3px solid #9ba8ab; /* Your theme color */
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #253745; /* Deep blue */
+}
+
+p {
+    font-size: 1rem;
+    color: #4a5c6a; /* Muted dark blue */
+    margin-bottom: 15px;
+}
+
+.support-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.support-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.coffee {
+    background: #ffcc00;
+    color: #06141b;
+}
+
+.coffee:hover {
+    background: #e5b800;
+    transform: scale(1.05);
+}
+
+.patreon {
+    background: #ff424d;
+    color: white;
+}
+
+.patreon:hover {
+    background: #d63b45;
+    transform: scale(1.05);
+}
+
+.paypal {
+    background: #0070ba;
+    color: white;
+}
+
+.paypal:hover {
+    background: #005f9e;
+    transform: scale(1.05);
+}
